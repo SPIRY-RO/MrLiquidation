@@ -28,7 +28,7 @@ const handler = (msg, reply) => {
 
   prom.then(() => {
     botReply = botReply || "\n<i>No data</i>";
-    reply.html(`<b>${baseCurrency} - ${quoteCurrency}</b> ${botReply}`);
+    reply.html(`<b>💸💸${baseCurrency} - ${quoteCurrency}💸💸</b> ${botReply}`);
   });
 };
 
