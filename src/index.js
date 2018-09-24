@@ -6,11 +6,11 @@ if (!config.botToken) {
 }
 
 const bot = new Botgram(config.botToken);
-bot.command("salut", (msg, reply) =>reply.text("Salut, ce faci?"));
+
 bot.command("pretul", require("./commands/price"));
 bot.command("exchanges", require("./commands/providers"));
 bot.command("eth", require("./commands/eth"));
 bot.command("help", "start", require("./commands/help"));
-bot.command("time", function (msg, reply, next) {
-  reply.text("The current time is: " + Date());
+bot.command("ceasul", function ( reply ) {
+  reply.text("Orologiu arata: " + Date());
 });
