@@ -6,6 +6,9 @@ var _axios2 = _interopRequireDefault(_axios);
 var _config = require('./../config.js');
 
 var _keys = require('./../keys');
+var _nodeTelegramBotApi = require('node-telegram-bot-api');
+
+var _nodeTelegramBotApi2 = _interopRequireDefault(_nodeTelegramBotApi);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
