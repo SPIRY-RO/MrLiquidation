@@ -9,6 +9,7 @@ if (!config.botToken) {
 const bot = new Botgram(config.botToken);
 
 bot.command("pretul", require("./commands/price"));
+bot.command("mcap", require("./commands/mcap"));
 bot.command("exchanges", require("./commands/providers"));
 bot.command("eth", require("./commands/eth"));
 bot.command("help", "start", require("./commands/help"));
