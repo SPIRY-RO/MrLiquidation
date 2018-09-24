@@ -1,3 +1,5 @@
+
+var chatId = message.chat.id;
 const HELP_TEXT = 'Hello ' + message.from.first_name + ' and thank you for using me! This will get you started.\n\n' +
   "<b>Pentru preturi live:</b>\n"; +
   "/price [BASE] [QUOTE]\n" +
