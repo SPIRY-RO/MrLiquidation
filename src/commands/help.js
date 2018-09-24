@@ -1,4 +1,4 @@
-const HELP_TEXT = 'You can control me with the follow commands:\n\n'; +
+const HELP_TEXT = 'Hello ' + message.from.first_name + ' and thank you for using me! This will get you started.\n\n' +
   "<b>Pentru preturi live:</b>\n"; +
   "/price [BASE] [QUOTE]\n" +
   "/providers - see the list of supported exchanges\n" +
