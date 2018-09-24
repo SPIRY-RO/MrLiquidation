@@ -1,5 +1,5 @@
 
-var chatId = message.chat.id;
+chatId = message.chat.id;
 const HELP_TEXT = 'Eu sunt Domnul Lichidare' +
   "<b>Pentru preturi live:</b>\n" +
   "/price [BASE] [QUOTE]\n" +
