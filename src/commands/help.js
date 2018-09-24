@@ -1,6 +1,7 @@
 
 
-const HELP_TEXT = 'Eu sunt Domnul 🎩 Lichidare\n' +
+const HELP_TEXT = '<b>Eu sunt Domnul 🎩 Lichidare</b>\n' +
+  "\n" +
   "<b>Pentru preturi live:</b>\n" +
   "/price [BASE] [QUOTE]\n" +
   "/providers - see the list of supported exchanges\n" +
