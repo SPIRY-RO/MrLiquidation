@@ -9,6 +9,7 @@ if (!config.botToken) {
 const bot = new Botgram(config.botToken);
 
 bot.command("zipretul", require("./commands/price"));
+bot.command("events", require("./commands/events"));
 bot.command("providers", require("./commands/providers"));
 bot.command("eth", require("./commands/eth"));
 bot.command("help", "start", require("./commands/help"));
