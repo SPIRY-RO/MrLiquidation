@@ -20,7 +20,7 @@ var API_BASE_URL = 'https://pro-api.coinmarketcap.com';
 _axios2.default.defaults.headers.common['X-CMC_PRO_API_KEY'] = _keys.COINMARKETCAP.API_KEY;
 
     var chatId, data, marketCap, bitcoinDominance, ethereumDominance, reply;
-    return regeneratorRuntime.wrap(function _callee$(_context) {
+    
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -49,4 +49,3 @@ _axios2.default.defaults.headers.common['X-CMC_PRO_API_KEY'] = _keys.COINMARKETC
             return _context.stop();
         }
       }
-    }, _callee, undefined);
