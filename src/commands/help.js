@@ -1,4 +1,4 @@
-const HELP_TEXT = "<b>Eu sunt Domnul Lichidare.</b>\n" +
+const HELP_TEXT = 'You can control me with the follow commands:\n\n'; +
   "<b>Pentru preturi live:</b>\n"; +
   "/price [BASE] [QUOTE]\n" +
   "/providers - see the list of supported exchanges\n" +
