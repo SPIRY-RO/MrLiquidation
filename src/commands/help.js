@@ -3,7 +3,7 @@
 const HELP_TEXT = '<b>Eu sunt Domnul 🎩 Lichidare</b>\n' +
   "\n" +
   "<b>Pentru preturi live:</b>\n" +
-  "/price [BASE] [QUOTE]\n" +
+  "/zipretul [BASE] [QUOTE]\n" +
   "<b>Lista de exchange-uri care le support:</b>\n" +
   "/providers - see the list of supported exchanges\n" +
   "<b>Daca esti baiat bun, iti pot verifica si balanta pe Ehtereum.</b>\n" +
