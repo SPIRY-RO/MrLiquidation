@@ -1,7 +1,7 @@
 
 var chatId = message.chat.id;
-const HELP_TEXT = 'Hello ' + message.from.first_name + ' and thank you for using me! This will get you started.\n\n' +
-  "<b>Pentru preturi live:</b>\n"; +
+const HELP_TEXT = 'Eu sunt Domnul Lichidare' +
+  "<b>Pentru preturi live:</b>\n" +
   "/price [BASE] [QUOTE]\n" +
   "/providers - see the list of supported exchanges\n" +
   "/eth - ethereum web3 functions (advanced users only). Geth node provided by INFURA\n" +
