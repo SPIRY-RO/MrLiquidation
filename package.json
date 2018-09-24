@@ -8,7 +8,7 @@
     "lint": "eslint ./src"
   },
   "keywords": [],
-  "author": "libertylocked",
+  "author": "SpiryBTC",
   "repository": {
     "type": "git",
     "url": "https://github.com/libertylocked/telegram-cryptotrader"
@@ -23,7 +23,7 @@
     "web3": "^0.20.2"
   },
   "devDependencies": {
-    "eslint": "^4.8.0",
+    "eslint": "^5.6.0",
     "eslint-config-google": "^0.9.1"
   }
 }
