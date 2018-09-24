@@ -1,10 +1,9 @@
-'use strict';
 
 var _axios = require('axios');
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _config = require('./config.js');
+var _config = require('./../config.js');
 
 var _keys = require('./../keys');
 
