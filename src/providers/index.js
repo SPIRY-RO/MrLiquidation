@@ -3,6 +3,5 @@ module.exports = {
   "Gemini": require("./gemini"),
   "Bittrex": require("./bittrex"),
   "Bitfinex": require("./bitfinex"),
-  "HitBTC": require("./hitbtc"),
   "Poloniex": require("./poloniex"),
 };
