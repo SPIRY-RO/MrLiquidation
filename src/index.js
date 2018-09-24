@@ -11,3 +11,6 @@ bot.command("pretul", require("./commands/price"));
 bot.command("exchanges", require("./commands/providers"));
 bot.command("eth", require("./commands/eth"));
 bot.command("help", "start", require("./commands/help"));
+bot.command("time", function (msg, reply, next) {
+  reply.text("The current time is: " + Date());
+});
